@@ -1,0 +1,8 @@
+step,detail,rows_affected
+input,raw rows,7068
+normalise_text,trimmed whitespace and fixed casing,161
+drop_duplicates,removed exact duplicate rows,25
+fix_types,converted TotalCharges text to numeric (blanks -> NaN),11
+fix_invalid_values,negative tenure / out-of-range MonthlyCharges set to NaN,14
+impute,"group-median numeric imputation, mode for PaymentMethod",130
+output,clean rows,7043

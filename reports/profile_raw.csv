@@ -1,0 +1,22 @@
+column,dtype,missing_pct,unique,top,mean,std,min,max
+customerID,str,0.0,7043,1386-MQCSG,,,,
+gender,str,0.0,4,Female,,,,
+SeniorCitizen,int64,0.0,2,,0.17,0.38,0.0,1.0
+Partner,str,0.0,2,No,,,,
+Dependents,str,0.0,2,No,,,,
+tenure,int64,0.0,74,,29.07,21.34,-1.0,72.0
+PhoneService,str,0.0,2,Yes,,,,
+MultipleLines,str,0.0,3,No,,,,
+InternetService,str,0.0,3,Fiber optic,,,,
+OnlineSecurity,str,0.0,3,No,,,,
+OnlineBackup,str,0.0,3,No,,,,
+DeviceProtection,str,0.0,3,No,,,,
+TechSupport,str,0.0,3,No,,,,
+StreamingTV,str,0.0,3,No,,,,
+StreamingMovies,str,0.0,3,No,,,,
+Contract,str,0.0,6,Month-to-month,,,,
+PaperlessBilling,str,0.0,2,Yes,,,,
+PaymentMethod,str,0.64,4,Electronic check,,,,
+MonthlyCharges,float64,0.85,4046,,60.57,36.54,18.25,999.0
+TotalCharges,str,0.0,6255,0.0,,,,
+Churn,str,0.0,2,No,,,,

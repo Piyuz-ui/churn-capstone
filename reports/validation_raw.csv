@@ -1,0 +1,29 @@
+rule,passed,failing_rows,critical
+all expected columns present,True,0,True
+no missing values,False,105,True
+no duplicate rows,False,25,True
+customerID unique,False,25,False
+gender in allowed set,False,80,True
+SeniorCitizen in allowed set,True,0,True
+Partner in allowed set,True,0,True
+Dependents in allowed set,True,0,True
+PhoneService in allowed set,True,0,True
+PaperlessBilling in allowed set,True,0,True
+MultipleLines in allowed set,True,0,True
+InternetService in allowed set,True,0,True
+OnlineSecurity in allowed set,True,0,True
+OnlineBackup in allowed set,True,0,True
+DeviceProtection in allowed set,True,0,True
+TechSupport in allowed set,True,0,True
+StreamingTV in allowed set,True,0,True
+StreamingMovies in allowed set,True,0,True
+Contract in allowed set,False,70,True
+PaymentMethod in allowed set,False,45,True
+Churn in allowed set,True,0,True
+tenure is numeric type,True,0,True
+"tenure within [0, 72]",False,8,True
+MonthlyCharges is numeric type,True,0,True
+"MonthlyCharges within [18.0, 120.0]",False,6,True
+TotalCharges is numeric type,False,7068,True
+"TotalCharges within [0.0, 9000.0]",True,0,True
+TotalCharges consistent with tenure x MonthlyCharges,True,13,False

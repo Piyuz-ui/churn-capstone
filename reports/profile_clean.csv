@@ -1,0 +1,22 @@
+column,dtype,missing_pct,unique,top,mean,std,min,max
+customerID,str,0.0,7043,1004-VNLPB,,,,
+gender,str,0.0,2,Male,,,,
+SeniorCitizen,int64,0.0,2,,0.17,0.38,0.0,1.0
+Partner,str,0.0,2,No,,,,
+Dependents,str,0.0,2,No,,,,
+tenure,int64,0.0,73,,29.08,21.32,0.0,72.0
+PhoneService,str,0.0,2,Yes,,,,
+MultipleLines,str,0.0,3,No,,,,
+InternetService,str,0.0,3,Fiber optic,,,,
+OnlineSecurity,str,0.0,3,No,,,,
+OnlineBackup,str,0.0,3,No,,,,
+DeviceProtection,str,0.0,3,No,,,,
+TechSupport,str,0.0,3,No,,,,
+StreamingTV,str,0.0,3,No,,,,
+StreamingMovies,str,0.0,3,No,,,,
+Contract,str,0.0,3,Month-to-month,,,,
+PaperlessBilling,str,0.0,2,Yes,,,,
+PaymentMethod,str,0.0,4,Electronic check,,,,
+MonthlyCharges,float64,0.0,4046,,59.72,24.12,18.25,107.07
+TotalCharges,float64,0.0,6263,,1735.58,1543.5,0.0,7557.53
+Churn,str,0.0,2,No,,,,
