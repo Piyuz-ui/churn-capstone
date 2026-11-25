@@ -1,0 +1,6 @@
+Overall churn is 31.2%. Month-to-month customers churn at 51.7% versus 2.0% on two-year contracts - contract length is the strongest lever.
+Customers in their first year churn at 60.0%, compared with 2.8% for customers with more than 4 years of tenure. Onboarding in the first 12 months matters most.
+Electronic-check payers churn at 37.8%, the highest of all payment methods; nudging them to automatic payment is a low-cost retention action.
+Fiber-optic customers churn at 39.1% despite paying the most, which points to price or service-quality issues on that product.
+Customers without tech support churn at 36.4% versus 29.1% with it; bundling support into at-risk plans could reduce churn.
+The model's top drivers are Contract_Month-to-month, Contract_Two year, tenure, PaymentMethod_Mailed check, matching the EDA findings.

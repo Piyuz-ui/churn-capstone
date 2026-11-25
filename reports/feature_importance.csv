@@ -1,0 +1,16 @@
+feature,importance
+Contract_Month-to-month,1.4662810780312698
+Contract_Two year,1.4309875694312995
+tenure,0.7702348309396782
+PaymentMethod_Mailed check,0.4319367618375561
+InternetService_DSL,0.4145279549373731
+Contract_One year,0.38871993795972404
+PaymentMethod_Electronic check,0.2975257735856726
+OnlineSecurity_Yes,0.28857683328407036
+TechSupport_Yes,0.2882622548878931
+SeniorCitizen,0.2680999048434162
+MultipleLines_No phone service,0.26490872400391613
+PaperlessBilling,0.2563191088807172
+InternetService_Fiber optic,0.2521871170842711
+StreamingTV_No,0.19333160961980406
+StreamingTV_No internet service,0.19108559150664964

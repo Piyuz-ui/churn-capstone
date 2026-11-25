@@ -1,0 +1,5 @@
+run_id,name,duration_s,param_model,param_oversample,param_train_rows,param_test_rows,cv_roc_auc,roc_auc,accuracy,precision,recall,f1
+20261125-102325-01e2a6,logreg_balanced,0.56,LogisticRegression,False,5634,1409,0.8473,0.8697,0.7693,0.5896,0.8542,0.6977
+20261125-102326-f502db,logreg_oversampled,0.53,LogisticRegression,True,7754,1409,0.8473,0.8697,0.7651,0.5844,0.8519,0.6932
+20261125-102332-ff749a,gradient_boosting,11.65,GradientBoostingClassifier,True,7754,1409,0.8409,0.8681,0.7693,0.5882,0.8656,0.7005
+20261125-102326-1c7692,random_forest,5.59,RandomForestClassifier,False,5634,1409,0.8398,0.8635,0.7559,0.5725,0.8542,0.6856
