@@ -1,0 +1,15 @@
+{
+  "run_id": "20261125-102326-f502db",
+  "name": "logreg_oversampled",
+  "duration_s": 0.53,
+  "param_model": "LogisticRegression",
+  "param_oversample": true,
+  "param_train_rows": 7754,
+  "param_test_rows": 1409,
+  "cv_roc_auc": 0.8473,
+  "roc_auc": 0.8697,
+  "accuracy": 0.7651,
+  "precision": 0.5844,
+  "recall": 0.8519,
+  "f1": 0.6932
+}

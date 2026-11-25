@@ -1,0 +1,15 @@
+{
+  "run_id": "20261125-102332-ff749a",
+  "name": "gradient_boosting",
+  "duration_s": 11.65,
+  "param_model": "GradientBoostingClassifier",
+  "param_oversample": true,
+  "param_train_rows": 7754,
+  "param_test_rows": 1409,
+  "cv_roc_auc": 0.8409,
+  "roc_auc": 0.8681,
+  "accuracy": 0.7693,
+  "precision": 0.5882,
+  "recall": 0.8656,
+  "f1": 0.7005
+}
